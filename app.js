@@ -16,6 +16,8 @@ fs.createReadStream("./data/bestbooks.csv")
     .on('data', function(csvrow) {
         const book = {
             ...csvrow,
+            rating: parseFloat(csvrow.rating),
+            pages: parseFloat(csvrow.pages),
             author: csvrow.author.replace(/, /g, ',').split(","),
             genres: csvrow.genres.replace(/, /g, ',').split(","),
             characters: csvrow.characters.replace(/, /g, ',').split(","),
