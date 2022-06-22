@@ -27,4 +27,5 @@ fs.createReadStream("./data/bestbooks.csv")
     }).on('end',function() {
         //do something with csvData
         console.log(`${counter} books imported`);
+        process.exit()
     });
