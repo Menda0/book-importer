@@ -2,35 +2,34 @@
 
 1. Install depencencies
 
-'''javascript
+```terminal
 npm install
-'''
+```
 
 2. Run application
 
-'''javascript
+```terminal
 npm start
-'''
+```
 
 3. Output should be something like this
 
-'''
-<br>
-...<br>
-The Natural Way of Things imported ...<br>
-Algedonic imported ...<br>
-Arafels Saga imported ...<br>
-Theodosia and the Last Pharaoh imported ...<br>
-Undetected imported ...<br>
-Nameless Fate imported ...<br>
-Heal Your Body: The Mental Causes for Physical Illness and the Metaphysical Way to Overcome Them imported ...<br>
-Attracted to Fire imported ...<br>
-Elemental imported ...<br>
-Unbelievable imported ...<br>
-Fractured imported ...<br>
-Anasazi imported ...<br>
-Marked imported ...<br>
-Wayward Son imported ...<br>
-Daughter of Helaman imported ...<br>
+```terminal
+...
+The Natural Way of Things imported ...
+Algedonic imported ...
+Arafels Saga imported ...
+Theodosia and the Last Pharaoh imported ...
+Undetected imported ...
+Nameless Fate imported ...
+Heal Your Body: The Mental Causes for Physical Illness and the Metaphysical Way to Overcome Them imported ...
+Attracted to Fire imported ...
+Elemental imported ...
+Unbelievable imported ...
+Fractured imported ...
+Anasazi imported ...
+Marked imported ...
+Wayward Son imported ...
+Daughter of Helaman imported ...
 52478 books imported<br>
-'''
+```
