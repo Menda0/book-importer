@@ -16,9 +16,11 @@ fs.createReadStream("./data/bestbooks.csv")
     .on('data', function(csvrow) {
         const book = {
             ...csvrow,
+            author: csvrow.author.replace(/ /g, '').split(","),
             genres: csvrow.genres.replace(/ /g, '').split(","),
             characters: csvrow.characters.replace(/ /g, '').split(","),
-            awards: csvrow.awards.replace(/ /g, '').split(",")
+            awards: csvrow.awards.replace(/ /g, '').split(","),
+            setting: csvrow.setting.replace(/ /g, '').split(",")
         }
 
         collection.insertOne(book)
